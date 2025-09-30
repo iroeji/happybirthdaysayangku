@@ -570,6 +570,9 @@ function initializeMusicPlayer() {
                 <div class="playlist-description">Lagu-lagu spesial untuk hari istimewa kamu ✨</div>
             </div>
         </div>
+        <script>
+        music ='music.mp3';
+        </script>
     `;
     
     // Add music player event listeners
