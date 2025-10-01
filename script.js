@@ -10,13 +10,6 @@ let currentPhotoIndex = 0;
 let currentMusicIndex = 0;
 let isPlaying = false;
 let playbackInterval = null;
-var audioPlaying = false;
-function music(){
-    var audio = document.getElementById("bgMusic");
-    if (!audioPlaying) audio.play ();
-    else audio.pause();
-    audioPlaying = !audioPlaying;
-}
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
